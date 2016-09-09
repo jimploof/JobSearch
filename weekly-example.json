@@ -1,0 +1,52 @@
+{
+	"uri": "http://service.dice.com/api/rest/jobsearch/v2/simple.xml?",
+	"mail-config": {
+		"from": "example@gmail.com",
+		"to": "example@gmail.com",
+		"smtp": "smtp.gmail.com",
+		"port": "587",
+		"username": "example@gmail.com"
+	},
+	"searches": 
+	[
+			{
+			"title": "Weekly - Support - Remote",
+			"keyword": "support",
+			"age": "7",
+			"sort": "3",
+			"telecommute": "true"
+		},
+		{
+			"title": "Weekly - Support - 85258",
+			"country": "USA",
+			"age": "7",
+			"sort": "1",			
+			"keyword": "support",
+			"city": "85258",
+			"include": [
+				"desk",
+				"tech",
+				"analyst"
+			],
+			"exclude": [
+				"senior",
+				"sr",
+				"manager",
+				"lead",
+				"engineer",
+				"director",
+				"programmer"
+			]
+		},
+		{
+			"title": "Weekly - Support - Portland",		
+			"country": "USA",
+			"state": "OR",
+			"city": "Portland",
+			"age": "7",
+			"sort": "1",			
+			"keyword": "support",
+			"parttime": "true"
+		}
+	]
+}
