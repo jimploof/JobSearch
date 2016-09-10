@@ -105,3 +105,4 @@ http://www.dice.com/common/content/util/apidoc/jobsearch.html
 - [ ] switch dice api payload to JSON for consistency
 - [ ] put html rgb values in configuration file to allow for custom colored tables
 - [ ] add option to exclude jobs you have already applied for possibly by using job id number or some other means
+- [ ] add some error checking
