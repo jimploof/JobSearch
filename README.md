@@ -1,5 +1,5 @@
 # JobSearch
-Automate dice.com job searches using windows powershell script, the dice API, JSON configuration file, and scheduled tasks.
+Automate job searches using windows powershell script, job websites API 's, JSON configuration files, and scheduled tasks.
 
 ### Command line example:
 powershell -file "C:\location\powershell\script\JobSearch.ps1" "C:\location\json\config\weekly-example.json" "email-password"
@@ -106,3 +106,5 @@ http://www.dice.com/common/content/util/apidoc/jobsearch.html
 - [ ] put html rgb values in configuration file to allow for custom colored tables
 - [ ] add option to exclude jobs you have already applied for possibly by using job id number or some other means
 - [ ] add some error checking
+- [ ] add indeed job search
+- [ ] de-dupe results produced from disparate job websites
