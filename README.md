@@ -67,11 +67,12 @@ powershell -file "C:\location\powershell\script\JobSearch.ps1" "C:\location\json
 #### Mail Configuration
 - Basic settings required by Powershells "Send-MailMessage" cmdlet
 - Example uses gmail. *Gmail may require you to authorize app*
+- Link to Gmail's SMTP documentation [here] (https://support.google.com/a/answer/176600?hl=en)
 
 #### Searches
 - You must have at least one search in the configuration file
 - The only *required* value in a search is the *keyword* value
-- Default values cosist of: (country=USA, age=21, sort=1, title=Automated Dice JobSearch)
+- Default values consist of: (country=USA, age=21, sort=1, title=Automated Dice JobSearch)
 
 #### Dice Search Parameters
 - keyword - Mandatory field used to search entire job posting for specified word
