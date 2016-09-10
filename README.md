@@ -73,7 +73,7 @@ powershell -file "C:\location\powershell\script\JobSearch.ps1" "C:\location\json
 - The only *required* value in a search is the *keyword* value
 - Default values cosist of: (country=USA, age=21, sort=1, title=Automated Dice JobSearch)
 
-#### Search Parameters
+#### Dice Search Parameters
 - keyword - Mandatory field used to search entire job posting for specified word
 - title - Used in the subject line of the email
 - country - ISO 3166 Country Code [List] (https://www.iso.org/obp/ui/#search)
@@ -86,15 +86,15 @@ powershell -file "C:\location\powershell\script\JobSearch.ps1" "C:\location\json
 - parttime - This is a part time position (true or false)
 - contract - This is a contract position (true or false)
 
+#### Special Search Parameters
+- I have created two special parameters that allow you to fine tune the results by filtering out words in the job title.
+- The search parameters are stored in the configuration file as an array, and can contain one or many items.
+- The search parameters work as wildcards, so if you specify "desk", it will match "desktop", "deskjockey", etc.
+- There is an include parameter, which only includes job titles that contain matches for the include parameters you specify.
+- There is an exclude parameter, which excludes any job titles that contain matches for the exclude parameter you specify.
+- Example: If you specify an include parameter of "Desk" and an exclude parameter of "Senior" it **will** match a job title of "Desktop Support", but it **will not** match a job title of "Senior Help Desk Manager".
 
 
-#### The URI is dice.com 's base API endpoint. It is currently on version 2, and this could potentially be replaced if/when a newer version becomes available.
-
-
-
-```json
-"uri": "http://service.dice.com/api/rest/jobsearch/v2/simple.xml?",
-```
 
 
 
