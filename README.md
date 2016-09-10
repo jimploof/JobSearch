@@ -101,6 +101,6 @@ http://www.dice.com/common/content/util/apidoc/jobsearch.html
 
 
 ## Future Revisions
-- [] remove default values from powershell script and put in config file
-- [] switch dice api payload to JSON for consistency
-- [] put html rgb values in configuration file to allow for custom colored tables
+- [ ] remove default values from powershell script and put in config file
+- [ ] switch dice api payload to JSON for consistency
+- [ ] put html rgb values in configuration file to allow for custom colored tables
